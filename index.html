@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .color {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- search collapse section -->
+    <div class="alert alert-primary p-5 collapse m-0" id="title">
+        <div class="container">
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search OfferKart" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+                <button class="btn btn-primary">
+
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+
+            <h5 class="mt-4 mb-2">Queck Start</h5>
+            <div class="row">
+                <div class="col-3 d-flex flex-column  gap-3">
+                    <a href="" class="d-block text-decoration-none">
+                        <i class="bi bi-chevron-right"></i>
+                        Search Result List
+                    </a>
+                    <a href="" class="d-block text-decoration-none">
+                        <i class="bi bi-chevron-right"></i>
+                        Search Result List
+                    </a>
+                    <a href="" class="d-block text-decoration-none">
+                        <i class="bi bi-chevron-right"></i>
+                        Search Result List
+                    </a>
+                    <a href="" class="d-block text-decoration-none">
+                        <i class="bi bi-chevron-right"></i>
+                        Search Result List
+                    </a>
+                    <a href="" class="d-block text-decoration-none">
+                        <i class="bi bi-chevron-right"></i>
+                        Search Result List
+                    </a>
+                </div>
+                <div class="col-3 d-flex flex-column  gap-3">
+                    <a href="" class="d-block text-decoration-none">
+                        <i class="bi bi-chevron-right"></i>
+                        Search Result List
+                    </a>
+                    <a href="" class="d-block text-decoration-none">
+                        <i class="bi bi-chevron-right"></i>
+                        Search Result List
+                    </a>
+                    <a href="" class="d-block text-decoration-none">
+                        <i class="bi bi-chevron-right"></i>
+                        Search Result List
+                    </a>
+
+                </div>
+
+                <div class="col-6 bg-light d-flex rounded p-3 gap-3">
+                    <img src="../assets/images/acer.jpeg" alt="">
+                    <div>
+                        <h6 class="text-primary">Featured Item</h6>
+                        <p>Create astonishing things with<br>ll new MSI Aplha</p>
+                        <button type="button" class="btn btn-outline-primary ">Shop Now
+                            <i class="bi bi-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg py-3 color navbar-dark">
+        <div class="container">
+            <div class="d-flex navbar-nav">
+
+                <a class="navbar-brand " href="#">SKILLHUB</a>
+
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown">
+                    menu
+                </button>
+
+                <ul class="dropdown-menu alert alert-primary w-100 mt-0 border-end-1">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="d-flex gap-3 ">
+                                    <i class="bi bi-laptop fs-1"></i>
+                                    <div>
+                                        <strong>Laptops</strong>
+                                        <p>lorem isusm dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </ul>
+            </div>
+            <div>
+                <button class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#title">
+                    Search
+                    <i class="bi bi-search"></i>
+                </button>
+                <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample">
+                    Cart
+                    <i class="bi bi-cart3"></i>
+                </button>
+                <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#Login">
+                    Login
+                    <i class="bi bi-lock"></i>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- card offcanvas section -->
+    <div class="offcanvas offcanvas-end" id="offcanvasExample">
+
+        <div class="card">
+
+            <!-- header section -->
+            <div class="card-header d-flex justify-content-between text-light bg-primary">
+                <h4 class="">Cart</h4>
+                <button type="button" class="btn-close  text-bg-light" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <!-- body  section -->
+            <div class="card-body alert alert-primary ">
+                <div class="container">
+
+                    <div class="card p-4">
+                        <div class="row">
+                            <div class="col-3"><img src="../assets/images/acer.jpeg" alt="" class="img-fluid"></div>
+                            <div class="col-6">
+                                <h6>Dell XPS 13 Pro</h6>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="col-3">
+                                <h5>$99,9</h5>
+                            </div>
+                        </div>
+                        <p>You will Save <span class="text-success">$14515</span> on this order</p>
+                        <div class="btn-group w-100">
+                            <button class="btn btn-outline-dark">
+                                <i class="bi bi-box-arrow-down"></i>
+                            </button>
+                            <button class="btn btn-outline-warning">
+                                <i class="bi  bi-heart"></i>
+                            </button>
+                            <button class=" btn btn-outline-danger">
+                                <i class="bi bi-trash"></i>
+                            </button>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="card p-4 mt-1">
+                        <div class="row">
+                            <div class="col-3"><img src="../assets/images/acer.jpeg" alt="" class="img-fluid"></div>
+                            <div class="col-6">
+                                <h6>Dell XPS 13 Pro</h6>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="col-3">
+                                <h5>$99,9</h5>
+                            </div>
+                        </div>
+
+                        <div class="btn-group w-100">
+                            <button class="btn btn-outline-dark">
+                                <i class="bi bi-box-arrow-down"></i>
+                            </button>
+                            <button class="btn btn-outline-warning">
+                                <i class="bi  bi-heart"></i>
+                            </button>
+                            <button class=" btn btn-outline-danger">
+                                <i class="bi bi-trash"></i>
+                            </button>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="card mt-4 bg-light container p-3">
+                        <p class="text-secondary" data-bs-toggle="collapse" data-bs-target="#coupon">I Have Coupon
+                            Code</p>
+                        <div class="input-group mb-3 collapse" id="coupon">
+                            <input type="text" class="form-control" placeholder="Applay Coupon Code"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <button class="btn btn-primary">
+                                Apply
+                            </button>
+                        </div>
+                        <div class="row ">
+                            <div class="col-9">
+                                <p>Price</p>
+                                <p>Estimated Tax</p>
+                            </div>
+                            <div class="col-3">
+                                <h6>$44551</h6>
+                                <h6>$7911</h6>
+                            </div>
+                            <hr>
+
+                        </div>
+                        <div class="row">
+                            <h6 class="col-9">Total</h6>
+                            <h6 class="col-3">$898855</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="offcanvas-body">
+
+        </div>
+    </div>
+
+    <!-- login offcanvas section -->
+    <div class="offcanvas offcanvas-end" id="Login">
+        <div class="card">
+            <div class="offcanvas-header bg-primary text-light">
+                <h4>Login</h4>
+                <button type="button" class="btn-close  text-bg-light" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body w-100 pt-5 alert alert-primary ">
+                <div class="card container p-3 ">
+
+
+
+                    <div>
+                        <label for="email" class="form-label">First Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter Your Email" />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please choose a username.</div>
+                    </div>
+                    <div class="mt-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Your Password" />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please choose a username.</div>
+                    </div>
+                    <button type="button" class="btn btn-primary  mt-4">
+                        Login
+                    </button>
+                    <p class="text-center mt-2">Or</p>
+                    <button type="button" class="btn btn-light btn-outline-primary">login with Google</button>
+
+
+
+
+                </div>
+                <p class="text-center mt-3 ">
+                    Dont Have Account? <a href="#">Create Account</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero section -->
+    <section class="container mt-5">
+        <div class="carousel slide " data-bs-ride="carousel" data-bs-interval="500">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex  align-items-center  justify-content-center gap-4">
+                        <img src="../assets/images/acer.jpeg" alt="" width="30%">
+                        <div>
+                            <h2 class="">
+                                <strong class="text-wrap">Dell XPS 14 Pro</strong>
+                            </h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Starting form <strong> $99,999</strong></p>
+                            <button type="button" class="btn btn-primary">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex  align-items-center  justify-content-center gap-4">
+                        <img src="../assets/images/acer.jpeg" alt="" width="30%">
+                        <div>
+                            <h2 class="">
+                                <strong class="text-wrap">Dell XPS 14 Pro</strong>
+                            </h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Starting form <strong> $99,999</strong></p>
+                            <button type="button" class="btn btn-primary">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section 1 -->
+    <section class="color mt-2">
+        <div class="container py-2 d-flex justify-content-between">
+            <div class="d-flex text-light gap-3 align-items-center">
+                <h3>
+                    <i class="bi bi-folder2 fs-1  "></i>
+                </h3>
+                <div>
+                    <h6>seccure checkout</h6>
+                    <p>Guramteed safe checkout</p>
+                </div>
+            </div>
+
+            <div class="d-flex text-light gap-3 align-items-center">
+                <h3>
+                    <i class="bi bi-truck  fs-1 "></i>
+                </h3>
+                <div>
+                    <h6>seccure checkout</h6>
+                    <p>Guramteed safe checkout</p>
+                </div>
+            </div>
+
+            <div class="d-flex text-light gap-3 align-items-center">
+                <h3>
+                    <i class="bi bi-box fs-1  "></i>
+                </h3>
+                <div>
+                    <h6>seccure checkout</h6>
+                    <p>Guramteed safe checkout</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- fecture section -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <h3 class="text-secondary">Featured Products</h3>
+                <button type="button" class="btn btn-primary">View All</button>
+            </div>
+            <div class="row mt-4">
+                <div class="col-4  card ">
+                    <div class="d-flex gap-4">
+                        <img src="../assets/images/images2.jpeg" alt="">
+                        <div class="d-flex flex-column">
+                            <img src="../assets/images/images.png" alt="" width="75%">
+                            <img src="../assets/images/images.jpeg" alt="" width="75%">
+                        </div>
+                    </div>
+                    <div class="card alert alert-primary mt-2">
+                        <div class="d-flex justify-content-between ">
+                            <h4>MSI Zeta</h4>
+                            <p>Starting <span>$5421</span></p>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary">Shop Now</button>
+                    </div>
+
+                </div>
+
+                <div class="col-4  card">
+                    <div class="d-flex gap-4">
+                        <img src="../assets/images/images2.jpeg" alt="">
+                        <div class="d-flex flex-column">
+                            <img src="../assets/images/images.png" alt="" width="75%">
+                            <img src="../assets/images/images.jpeg" alt="" width="75%">
+                        </div>
+                    </div>
+                    <div class="card alert alert-primary mt-2">
+                        <div class="d-flex justify-content-between ">
+                            <h4>MSI Zeta</h4>
+                            <p>Starting <span>$5421</span></p>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary">Shop Now</button>
+                    </div>
+
+                </div>
+
+                <div class="col-4  card">
+                    <div class="d-flex gap-4">
+                        <img src="../assets/images/images2.jpeg" alt="">
+                        <div class="d-flex flex-column">
+                            <img src="../assets/images/images.png" alt="" width="75%">
+                            <img src="../assets/images/images.jpeg" alt="" width="75%">
+                        </div>
+                    </div>
+                    <div class="card alert alert-primary mt-2">
+                        <div class="d-flex justify-content-between ">
+                            <h4>MSI Zeta</h4>
+                            <p>Starting <span>$5421</span></p>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary">Shop Now</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-4  card">
+                    <div class="d-flex gap-4">
+                        <img src="../assets/images/images2.jpeg" alt="">
+                        <div class="d-flex flex-column">
+                            <img src="../assets/images/images.png" alt="" width="75%">
+                            <img src="../assets/images/images.jpeg" alt="" width="75%">
+                        </div>
+                    </div>
+                    <div class="card alert alert-primary mt-2">
+                        <div class="d-flex justify-content-between ">
+                            <h4>MSI Zeta</h4>
+                            <p>Starting <span>$5421</span></p>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary">Shop Now</button>
+                    </div>
+
+                </div>
+
+                <div class="col-4  card">
+                    <div class="d-flex gap-4">
+                        <img src="../assets/images/images2.jpeg" alt="">
+                        <div class="d-flex flex-column">
+                            <img src="../assets/images/images.png" alt="" width="75%">
+                            <img src="../assets/images/images.jpeg" alt="" width="75%">
+                        </div>
+                    </div>
+                    <div class="card alert alert-primary mt-2">
+                        <div class="d-flex justify-content-between ">
+                            <h4>MSI Zeta</h4>
+                            <p>Starting <span>$5421</span></p>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary">Shop Now</button>
+                    </div>
+
+                </div>
+
+                <div class="col-4  card">
+                    <div class="d-flex gap-4">
+                        <img src="../assets/images/images2.jpeg" alt="">
+                        <div class="d-flex flex-column">
+                            <img src="../assets/images/images.png" alt="" width="75%">
+                            <img src="../assets/images/images.jpeg" alt="" width="75%">
+                        </div>
+                    </div>
+                    <div class="card alert alert-primary mt-2">
+                        <div class="d-flex justify-content-between ">
+                            <h4>MSI Zeta</h4>
+                            <p>Starting <span>$5421</span></p>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary">Shop Now</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- fecture section 2 -->
+    <section>
+        <div class="color text-light d-flex justify-content-center py-3 align-items-center">
+            <h3>What's Tranding</h3>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-4 card p-3 ">
+                    <div class="d-flex justify-content-between">
+                        <p class="bg-danger badge rounded text-white p-2">Most Popular</p>
+                        <i class="bi bi-heart fs-3"></i>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="../assets/images/router.jpg" alt="" class="w-50">
+                        <h4>Accessories</h4>
+                        <h5>Router</h5>
+                        <p>$445</p>
+                        <div>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-4 card p-3">
+                    <div class="d-flex justify-content-between">
+                        <p class="bg-success badge rounded text-white p-2">Most Popular</p>
+                        <i class="bi bi-heart fs-3"></i>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="../assets/images/router.jpg" alt="" class="w-50">
+                        <h4>Accessories</h4>
+                        <h5>Router</h5>
+                        <p>$445</p>
+                        <div>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-4 card p-3">
+                    <div class="d-flex justify-content-between">
+                        <p class="bg-danger badge rounded text-white p-2">Most Popular</p>
+                        <i class="bi bi-heart fs-3"></i>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="../assets/images/router.jpg" alt="" class="w-50">
+                        <h4>Accessories</h4>
+                        <h5>Router</h5>
+                        <p>$445</p>
+                        <div>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-half text-warning"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
